@@ -1,0 +1,66 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>SIT 725 Prac 01</title>
+<style type="text/css">
+    body{
+
+        background: lavenderblush;
+        height: 100vh;
+        display: grid;
+        place-items: center;
+    }
+    .text{
+
+        font-size: 60px;
+        font-weight: bolder;
+        font-family: 'pacifico',cursive;
+        text-shadow: 2px 2px 4px #c03636;
+        animation: color 5s infinite;
+    }
+    @keyframes color {
+        0%{color: orange;}
+        10%{color: rgb(255, 0, 55);}
+        20%{color: rgb(0, 255, 255);}
+        30%{color: rgb(136, 255, 0);}
+        40%{color: rgb(17, 0, 255);}
+        50%{color: rgb(0, 166, 255);}
+        60%{color: rgb(100, 129, 117);}
+        70%{color: rgb(160, 119, 99);}
+        80%{color: rgb(123, 109, 169);}
+    }
+
+</style>
+  <meta name="description" content="basic template for SIT 725 Prac 1">
+  <meta name="author" content="SitePoint">
+
+  <meta property="og:title" content="SIT 725 Prac 1">
+  <meta property="og:type" content="website">
+  <meta property="og:description" content="basic template for SIT 725 Prac 1">
+
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col s12">
+                <h1 id="heading" class="center-align">SIT725 Prac 01 </h1>
+            </div>
+            <div class="col s12 center-align">
+                <a class="waves-effect waves-light btn" onclick="changeText()">Change color</a>
+            </div>
+        </div>
+    </div>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="server.js"></script>
+</body>
+</html>
